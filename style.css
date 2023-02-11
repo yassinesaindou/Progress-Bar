@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+h1{
+    font-size: 2.4rem;
+
+}
+h2{
+    font-size: 1.9rem;
+}
+h3{
+    font-size: 1.7rem;
+}
+article{
+    margin: 3rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    resize: both;
+}
+p{
+    font-size: 1.5rem;
+}
+#progress-bar{
+    --progress:5rem;
+    position: fixed;
+    top: 0%;
+    width: var(--progress); 
+    height:0.6rem;
+    z-index: 100;
+    background:linear-gradient(to right, red, blue);
+}
